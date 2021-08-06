@@ -1,0 +1,219 @@
+html{
+    font-family: Arial;
+    background-color: rgb(255, 255, 0, 0.6);
+    color: black;
+    font-size: 28px;    
+}
+
+#MarkandLeanne{
+    position: absolute;
+    left: 50%;
+    top: 17.5%;
+    transform: translate(-50%, -50%)
+}
+
+hr{
+    height: 5px;
+    background: black;
+}
+
+footer{
+    text-align: center;
+    text-decoration: underline black;
+}
+dfn{
+    font-weight: bolder;
+    text-decoration: underline;
+}
+/* Container 1 and its elements */
+
+.welcome{
+    text-align: center;
+    align-self: center;
+    text-decoration: underline black;
+}
+
+.container1{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    border: 5px solid black;    
+}
+
+#heading1{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-self: center;
+    width: max-content;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-decoration: underline black;
+}
+
+.paragraph1{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    text-align: left;
+    width: fit-content;
+    height: fit-content;
+    padding: 10px;
+}
+
+#quote1{
+    display: flex;
+    flex-direction: row; 
+}
+
+.PICtures{
+    display: flex;
+    flex-direction: row;
+    margin: 15px;
+    align-items: flex-end;
+    justify-content: center;
+    border: 15px solid black;
+    
+    
+      
+    
+}
+.PICtures div{
+    padding: 50px;
+    width: 100px;
+    height: 200px;
+}
+
+#PICture1{
+    display: flex;
+    justify-self: flex-end;
+    width: fit-content;
+    
+}
+
+#PICture2{
+    display: flex;
+    justify-self: flex-end;
+    width: fit-content;
+    
+}
+
+#PICture3{
+    display: flex;
+    justify-self: flex-end;
+    width: fit-content;
+    
+}
+
+#PICture4{
+    display: flex;
+    justify-self: flex-end;
+    width: fit-content;
+    
+}
+
+#PICture5{
+    display: flex;
+    justify-self: flex-end;
+    width: fit-content;
+    
+}
+
+/* Container 2 and its elements */
+
+.container2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+    border: 5px solid black;
+}
+
+#heading2{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-self: center;
+    width: fit-content;
+    text-decoration: underline black;
+
+}
+
+.paragraph2{
+    text-align: left;
+    width: 75%;
+}
+
+#symptoms{
+    list-style-type: none;
+    text-decoration: underline black;
+}
+#prompt{
+    text-align: center;
+    text-decoration: underline black;
+}
+
+/* Container 3 and its elements */
+
+.container3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+    /* background-color: purple; */
+    border: 5px solid black;
+}
+
+#heading3{
+    display: flex;
+    flex-direction: row;
+    /* background-color: yellow; */
+    text-align: center;
+    align-self: center;
+    width: fit-content;
+    text-decoration: underline black;
+
+}
+
+.paragraph3{
+    /* background-color: green; */
+    text-align: left;
+    width: 75%;
+}
+
+#side_effects{
+    list-style-type: none;
+    text-decoration: underline black;
+}
+
+.paragraph4{
+    /* background-color: green; */
+    text-align: left;
+    width: 75%;
+
+}
+
+/* Container 4 and its elements */
+
+.container4{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 10px;
+    border: 5px solid black;
+}
+
+.nav_bar{
+    display: flex;
+    font-size: 28px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style-type: none;
+    
+}
